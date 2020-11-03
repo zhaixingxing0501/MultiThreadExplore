@@ -12,6 +12,7 @@
 		9CAF9F44255129C80026DCA3 /* PortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAF9F43255129C80026DCA3 /* PortViewController.m */; };
 		9CAF9F48255129E70026DCA3 /* InterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAF9F47255129E70026DCA3 /* InterviewViewController.m */; };
 		9CAF9F4C25512B280026DCA3 /* PersonPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAF9F4B25512B280026DCA3 /* PersonPort.m */; };
+		9CAF9F572551519F0026DCA3 /* 快手面试解析.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CAF9F562551519F0026DCA3 /* 快手面试解析.jpg */; };
 		9CB7C55E253ED848004F908D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7C55D253ED848004F908D /* AppDelegate.m */; };
 		9CB7C561253ED848004F908D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7C560253ED848004F908D /* SceneDelegate.m */; };
 		9CB7C564253ED848004F908D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7C563253ED848004F908D /* ViewController.m */; };
@@ -33,6 +34,7 @@
 		9CAF9F47255129E70026DCA3 /* InterviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterviewViewController.m; sourceTree = "<group>"; };
 		9CAF9F4A25512B280026DCA3 /* PersonPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonPort.h; sourceTree = "<group>"; };
 		9CAF9F4B25512B280026DCA3 /* PersonPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonPort.m; sourceTree = "<group>"; };
+		9CAF9F562551519F0026DCA3 /* 快手面试解析.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "快手面试解析.jpg"; sourceTree = "<group>"; };
 		9CB7C559253ED848004F908D /* MultiThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB7C55C253ED848004F908D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CB7C55D253ED848004F908D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +62,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CAF9F53255147410026DCA3 /* 多线程面试题 */ = {
+			isa = PBXGroup;
+			children = (
+				9CAF9F562551519F0026DCA3 /* 快手面试解析.jpg */,
+				9CAF9F46255129E70026DCA3 /* InterviewViewController.h */,
+				9CAF9F47255129E70026DCA3 /* InterviewViewController.m */,
+			);
+			name = "多线程面试题";
+			sourceTree = "<group>";
+		};
 		9CB7C550253ED848004F908D = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +91,7 @@
 		9CB7C55B253ED848004F908D /* MultiThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CAF9F53255147410026DCA3 /* 多线程面试题 */,
 				9CB7C55C253ED848004F908D /* AppDelegate.h */,
 				9CB7C55D253ED848004F908D /* AppDelegate.m */,
 				9CB7C55F253ED848004F908D /* SceneDelegate.h */,
@@ -89,8 +102,6 @@
 				9CAF9F43255129C80026DCA3 /* PortViewController.m */,
 				9CAF9F4A25512B280026DCA3 /* PersonPort.h */,
 				9CAF9F4B25512B280026DCA3 /* PersonPort.m */,
-				9CAF9F46255129E70026DCA3 /* InterviewViewController.h */,
-				9CAF9F47255129E70026DCA3 /* InterviewViewController.m */,
 				9C864892254124300067BCE2 /* ThreadExplore.h */,
 				9C864893254124300067BCE2 /* ThreadExplore.m */,
 				9C86488E2541241F0067BCE2 /* GCDExplore.h */,
@@ -163,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB7C56C253ED84E004F908D /* LaunchScreen.storyboard in Resources */,
+				9CAF9F572551519F0026DCA3 /* 快手面试解析.jpg in Resources */,
 				9CB7C569253ED84E004F908D /* Assets.xcassets in Resources */,
 				9CB7C567253ED848004F908D /* Main.storyboard in Resources */,
 			);
